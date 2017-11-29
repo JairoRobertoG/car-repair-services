@@ -1,0 +1,124 @@
+.vertical-tab-container.car-repair-plugin{
+  position: relative;
+}
+.vertical-tab-container.car-repair-plugin form .input-custom {
+    height: 48px !important;
+    margin-bottom: 5px;
+}
+
+.car-repair-plugin-modal{
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.car-repair-plugin-modal-content {
+    background-color: transparent;
+    margin: 50% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.auto-repair-loader,
+.auto-repair-loader:before,
+.auto-repair-loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.auto-repair-loader {
+  color: #ffffff;
+  font-size: 10px;
+  margin: 10px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateY(-30px);
+  -ms-transform:  translateY(-30px);
+  transform:  translateY(-30px);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.vertical-tab-content .nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    width: 120px;
+}
+.auto-repair-loader:before,
+.auto-repair-loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.auto-repair-loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.auto-repair-loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+.car-get-form .nav-tabs {
+    border: none;
+}
+.car-get-form .vertical-tab-content.active .nav-tabs >li> a{
+    color: #fff ;
+    background-color: #333;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-right: 0px;
+}
+.car-get-form .vertical-tab-content.active .nav-tabs >li.active a {
+    color: #fff !important;
+    background-color: #333 !important;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-right: 0px;
+}
+.car-get-form .vertical-tab-content h3 {
+    font-size: 28px;
+}
+.vertical-tab-content .store a{
+  color: #333;
+}
+.vertical-tab-content .store p{
+  margin-bottom: 10px;
+}
+#tires-m .tab-content > .tab-pane {
+    width: 100%;
+}
+
