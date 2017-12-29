@@ -1,9 +1,9 @@
-.prd-grid {
+/*     .prd-grid {
     float: left;
 	position: relative;
 	margin-bottom: 120px;
 	width:100%;
-}
+} it create a problem in product grid in product listing page*/
 
 body:not(.home) {
     background-repeat: no-repeat;
@@ -53,20 +53,26 @@ body:not(.home) {
 }
 
 .woocommerce-products-header {
-    color: #fff;
     text-align: center;
-}
-.woocommerce-products-header {
     color: #292929;
     font-family: "Muli",sans-serif;
     font-size: 44px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 44px;
     margin: 0 0 54px;
 }
 .woocommerce-products-header h1{
 	font-size:44px;
 	color:#fff;
+}
+@media (max-width: 767px) {
+    .woocommerce-products-header h1{
+        font-size: 30px;
+        line-height: normal;
+    } 
+    .woocommerce-products-header {
+        margin: 0 0 20px;
+    }   
 }
 body.custom-background.single-product  {
     background-color: #fff;
@@ -177,6 +183,7 @@ input.input-text.qty {
     font-size: 17px;
     vertical-align: text-bottom;
     color: #fff;
+    line-height: 22px;
 }
 .header-cart .icon-shop-cart{
   margin-right: 0;
@@ -330,7 +337,6 @@ input.input-text.qty {
     margin-top: 48px;
 }
 .related.products {
-    float: left;
     margin-bottom: 120px;
     margin-top: 100px;
 }
@@ -443,15 +449,15 @@ span.show-result {
 .woocommerce-pagination .page-numbers {
     border: 1px solid #d3ced2 !important;
 }
-
+.woocommerce nav.woocommerce-pagination {
+    clear: both;
+}
 .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current {
     background: #fede00 none repeat scroll 0 0;
     color: #8a7e88;
 	border:1px solid #fede00 !important;
 }
-.col-md-4.col-lg-3.column-left.column-filters {
-    border: 3px solid #f5f5f5;
-}
+
 body:not(.home).woocommerce #pageContent {
     padding-top: 100px;
 }
@@ -461,7 +467,6 @@ body:not(.home).woocommerce #pageContent {
 .title-aside {
     font-size: 30px;
 }
-
 
 .prd-sm-img {
     float: left;
@@ -473,6 +478,21 @@ body:not(.home).woocommerce #pageContent {
     width: 100px;
     height: auto;
 }
+@media (max-width: 991px) {
+    .title-aside {
+        font-size: 26px;
+    }
+    body:not(.home).woocommerce #pageContent {
+        padding-top: 45px;
+    }  
+    .prd-sm-img {
+        /* width: 40%; */
+    }  
+    .attachment-shop_thumbnail.size-shop_thumbnail.wp-post-image {
+        width: 100%;
+    }
+}
+
 .prd-sm-info span {
     color: #292929 !important;
 	font-weight: normal;
@@ -504,21 +524,34 @@ header .header-cart:hover {
     padding-left: 10px;
     padding-right: 5px;
 }
+
 header .header-cart {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    padding-left: 15px;
-    margin-top: -30px;
+    margin-top: -24px;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
+    padding-left: 15px;
     left: 50px;
+    width: 45px;
+    height: 30px;
 }
+
+@media (max-width: 991px) {
+
+  header .header-cart {
+    display: none
+  }
+}
+
 .woocommerce .search-container button.button{
     position: absolute;
     background-color: transparent;
+    padding: 0;
+    font-size: 20px;
 }
 .woocommerce .search-container button.button:hover{
     background-color: #fede00;
@@ -535,7 +568,7 @@ header .header-cart .badge {
   font-size: 12px;
   position: absolute;
   right: -12px;
-  top: -10px;
+  top: -14px;
   background-color: #fede00;
   color: #000;
   -webkit-transition: 0.2s;
@@ -783,16 +816,18 @@ margin-right: 10px;
   display: -ms-flexbox;
   display: flex;
 }
-.header-cart-dropdown .prd-sm {
-    position: relative;
-    display: block;
-}
 .wc-forward {
     width: 100%;
     margin-top: 15px;
 }
 .prd-sm:not(:last-child) {
   margin-bottom: 20px;
+}
+.header-cart-dropdown .prd-sm {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
 }
 .prd-sm-img {
   min-width: 88px;
@@ -802,7 +837,7 @@ margin-right: 10px;
   top: 0;
   right: -4px;
   cursor: pointer;
-  font-size: 23px;
+  font-size: 18px;
 }
 .prd-sm-delete:hover {
   opacity: .5;
@@ -840,7 +875,7 @@ margin-right: 10px;
   margin: 45px 15px !important;
 }
 .prd-grid:not(.prd-carousel) {
-    margin: -60px 0px 0 !important;
+    margin: -45px -15px 0 !important;
 }
 .prd-img img {
   width: 100%;
@@ -940,8 +975,8 @@ h5 > .rating {
   }
   .prd-grid:not(.prd-carousel) .prd {
     width: 100%;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 }
 .product-card img {
@@ -1117,4 +1152,48 @@ input[type=number]
 .woocommerce-message .wc-forward {
     width: auto;
     margin-top: 15px;
+}
+.woocommerce .product .ajax_add_to_cart.added{
+    font-size: 12px !important;
+    min-width: 155px !important;
+    padding: 13px 25px 15px;
+}
+.ajax_add_to_cart.added span i{
+    position: relative;
+}
+.ajax_add_to_cart.added span i.icon-shop-cart {
+    padding-right: 14px;
+}
+.ajax_add_to_cart.added span i::before{
+    position: absolute;
+    content: "\e91d";
+    font-family: 'auto';
+    left: -10px;
+    font-size: 16px;
+    top: 0;
+}
+.woocommerce .woocommerce-ordering {
+    margin: 0;
+}
+/* New Categories Css */
+.product-categories-listing {
+    display: block;
+    overflow: hidden;
+    margin: 0px 0px 30px;
+    width: 102%;
+    margin-left: -2%;
+}
+.product-categories-listing:empty {
+    display: none;
+}
+.product-categories-listing .product-category {
+    width: 31.33%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    margin-left: 2%;
+}
+.woocommerce-loop-category__title {
+    font-size: 22px;
+    padding-top: 10px;
 }

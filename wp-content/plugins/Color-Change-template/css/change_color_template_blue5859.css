@@ -1,0 +1,491 @@
+body.color-blue .color,
+body.color-blue a.color,
+body.color-blue a.color:hover,
+body.color-blue a.color:focus {
+  color: #4290e0 !important;
+}
+body.color-blue svg path.color {
+  fill: #4290e0 !important;
+}
+body.color-blue .divider-line {
+  border-color: #4290e0;
+}
+body.color-blue .quote:before {
+  color: #4290e0;
+}
+body.color-blue .quote-simple {
+  border-left: 4px solid #4290e0;
+}
+body.color-blue .marker-list > li:after,
+body.color-blue .marker-list-sm > li:after,
+body.color-blue .marker-list-arrow > li:after {
+  color: #4290e0;
+}
+body.color-blue ul.category-list li:after {
+  color: #4290e0;
+}
+body.color-blue .number-list > li:before {
+  color: #4290e0;
+}
+body.color-blue .contact-info > .icon {
+  color: #4290e0;
+}
+body.color-blue .loader-circle-2 {
+  border-right-color: #4290e0;
+}
+body.color-blue .loader .line:nth-child(6) {
+  background: #4290e0;
+}
+body.color-blue .loader .subline:nth-child(11) {
+  background: #4290e0;
+}
+body.color-blue .loader .needle:before {
+  border-color: transparent #4290e0 transparent transparent;
+}
+body.color-blue .input-custom:hover,
+body.color-blue .input-custom:focus,
+body.color-blue .input-custom.focus {
+  border-color: #4290e0;
+}
+body.color-blue .textarea-custom:hover,
+body.color-blue .textarea-custom:focus,
+body.color-blue .textarea-custom.focus {
+  border-color: #4290e0;
+}
+body.color-blue .btn:not([data-action]):hover {
+  background: #4290e0;
+}
+body.color-blue .btn:not([data-action]):before,
+body.color-blue .btn:not([data-action]):after {
+  background-color: #4290e0 !important;
+}
+body.color-blue .btn:not([data-action]).btn-border {
+  border: 2px solid #4290e0;
+  background: transparent;
+}
+body.color-blue .btn-invert:not([data-action]),
+body.color-blue .btn-invert:not([data-action]).active,
+body.color-blue .btn-invert:not([data-action]):active,
+body.color-blue .btn-invert:not([data-action]).focus,
+body.color-blue .btn-invert:not([data-action]):focus {
+  background: #4290e0;
+}
+body.color-blue .social-links ul li a {
+  color: #4290e0;
+}
+body.color-blue .link a {
+  color: #4290e0;
+}
+body.color-blue .back-to-top a,
+body.color-blue .tag:hover {
+  background-color: #4290e0 !important;
+}
+body.color-blue .tags-list li a:hover {
+  background-color: #4290e0;
+}
+body.color-blue .calendar__footer a:hover {
+  color: #4290e0;
+}
+body.color-blue .calendar .selected,
+body.color-blue .calendar .selected:hover {
+  background-color: #4290e0;
+}
+body.color-blue .nav-tabs > li.active > a,
+body.color-blue .nav-tabs > li > a:hover {
+  color: #4290e0 !important;
+}
+body.color-blue .nav-tabs > li > a::after {
+  background: #4290e0;
+}
+body.color-blue .tab-nav > li > a::after {
+  background: #4290e0 none repeat scroll 0% 0%;
+}
+body.color-blue .nav-pills > li.active > a,
+body.color-blue .nav-pills > li.active > a:focus,
+body.color-blue .nav-pills > li.active > a:hover {
+  background: #4290e0;
+  border-color: #4290e0;
+}
+body.color-blue header .header-right .address span {
+  color: #4290e0;
+}
+body.color-blue header .header-phone .phone-number .code {
+  color: #4290e0;
+}
+body.color-blue header .header-cart:hover a.icon,
+body.color-blue header .header-cart.opened a.icon {
+  color: #4290e0;
+}
+body.color-blue header .header-cart .badge {
+  background-color: #4290e0;
+}
+body.color-blue header .header-cart:hover a.icon,
+body.color-blue header .header-cart.opened a.icon {
+  color: #4290e0;
+}
+body.color-blue .appointment {
+  background-color: #4290e0;
+}
+body.color-blue .appointment:after {
+  border-color: transparent #4290e0 transparent transparent;
+}
+@media (min-width: 992px) {
+  body.color-blue .navbar-nav > li > a:after {
+    background-color: #4290e0;
+  }
+  body.color-blue .navbar-nav > li.active a,
+  body.color-blue .navbar-nav > li:hover a {
+    background-color: #4290e0;
+  }
+}
+@media (max-width: 991px) {
+  body.color-blue header.page-header .navbar-toggle {
+    color: #4290e0;
+  }
+}
+body.color-blue .search-container:hover .button {
+  background-color: #4290e0;
+}
+@media (max-width: 991px) {
+  body.color-blue .search-container .button {
+    background-color: #4290e0;
+  }
+}
+@media (max-width: 991px) {
+  body.color-blue #slide-nav #slidemenu .close-menu {
+    color: #4290e0;
+  }
+}
+body.color-blue .page-footer .social-links ul li a {
+  color: #4290e0;
+}
+body.color-blue .page-footer .footer-phone .number {
+  color: #4290e0;
+}
+body.color-blue .page-footer .contact-info .icon {
+  color: #4290e0;
+}
+body.color-blue #mainSlider .slide-content h3 {
+  color: #4290e0;
+}
+body.color-blue #mainSlider .slide-content .btn:hover,
+body.color-blue #mainSlider .slide-content .btn.active,
+body.color-blue #mainSlider .slide-content .btn:active,
+body.color-blue #mainSlider .slide-content .btn.focus,
+body.color-blue #mainSlider .slide-content .btn:focus {
+  color: #4290e0;
+}
+body.color-blue #mainSlider .slick-prev:hover:before,
+body.color-blue #mainSlider .slick-next:hover:before {
+  color: #4290e0 !important;
+}
+body.color-blue .breadcrumbs .breadcrumb a:hover {
+  color: #4290e0;
+}
+body.color-blue .text-icon .icon-wrapper > span {
+  background: #4290e0;
+}
+body.color-blue .text-icon-hor .icon-wrapper span i.icon {
+  color: #4290e0;
+}
+body.color-blue .text-icon-hor .icon-wrapper .icon-hover {
+  background-color: #4290e0;
+}
+body.color-blue .text-icon-hor .price {
+  color: #4290e0;
+}
+body.color-blue .testimonials-item {
+  background-color: #4290e0;
+}
+body.color-blue .testimonials-item .inside .rating {
+  color: #4290e0;
+}
+body.color-blue .testimonials-single .username {
+  color: #4290e0;
+}
+body.color-blue .faq-item .panel-heading .panel-title {
+  border-top: 1px solid #4290e0;
+}
+body.color-blue .faq-item .panel-heading .panel-title > a:hover {
+  color: #4290e0;
+}
+body.color-blue .faq-item .panel-heading a > span.caret-toggle {
+  background-color: #4290e0;
+}
+body.color-blue .blog-post .post-image .post-link:hover {
+  color: #4290e0;
+}
+body.color-blue .blog-post .post-meta li i.icon {
+  color: #4290e0 !important;
+}
+body.color-blue .post-preview .post-title a:hover {
+  color: #4290e0;
+}
+body.color-blue .side-block {
+  border-bottom: 1px solid #4290e0;
+}
+body.color-blue .comments .comment .text .meta a {
+  color: #4290e0;
+}
+body.color-blue .comments .comment .text .date i.icon {
+  color: #4290e0;
+}
+body.color-blue #appointmentForm.modal .modal-dialog .modal-header .close {
+  color: #4290e0 !important;
+}
+body.color-blue .services-block .image,
+body.color-blue .services-block-alt .image i {
+  background-color: #4290e0;
+  -webkit-box-shadow: 0 0 0 20px #4290e0;
+  -moz-box-shadow: 0 0 0 20px #4290e0;
+  box-shadow: 0 0 0 20px #4290e0;
+}
+body.color-blue .services-block-alt .image:hover i {
+  -webkit-box-shadow: 0 0 0 0 #4290e0;
+  -moz-box-shadow: 0 0 0 0 #4290e0;
+  box-shadow: 0 0 0 0 #4290e0;
+}
+body.color-blue .services-block .service.dark h2,
+body.color-blue .services-block .service.dark h3,
+body.color-blue .services-block .service.dark h4 {
+  color: #4290e0;
+}
+body.color-blue .services-block-alt .caption .title {
+  color: #4290e0;
+}
+body.color-blue .services-block-alt .services-link {
+  color: #4290e0;
+}
+body.color-blue .vertical-tab-menu .list-group > a i.icon {
+  color: #4290e0;
+}
+body.color-blue .promo-banner {
+  border: 2px dotted #4290e0;
+}
+body.color-blue .promo-banner .icon-lg {
+  color: #4290e0;
+}
+body.color-blue .how-works-block .caption > .inside .number span {
+  background-color: #4290e0;
+}
+body.color-blue .stat-box .icon {
+  color: #4290e0;
+}
+body.color-blue .filters-by-category ul li a:hover,
+body.color-blue .filters-by-category ul li a.selected {
+  color: #4290e0 !important;
+}
+@media (min-width: 768px) {
+  body.color-blue .image-scale-color:after {
+    background: #4290e0;
+  }
+}
+body.color-blue .slick-prev:hover:before,
+body.color-blue .slick-next:hover:before {
+  color: #4290e0 !important;
+}
+body.color-blue .slick-dots li.slick-active button,
+body.color-blue .slick-dots li.slick-active button:hover {
+  background: #4290e0;
+}
+body.color-blue .coupon-text5 {
+  color: #4290e0;
+}
+body.color-blue .coupon .coupon-all {
+  background-color: #4290e0;
+}
+body.color-blue .coupon .coupon-all:after {
+  border-color: #4290e0 transparent transparent transparent;
+}
+body.color-blue .coupon-print-inside {
+  border-color: #4290e0;
+}
+body.color-blue .service-icon .icon-wrapper span {
+  background: #4290e0;
+}
+body.color-blue .text-icon-sm .icon-wrapper > span {
+  background: #4290e0;
+}
+body.color-blue .text-icon-sm .icon-wrapper .icon-hover {
+  background-color: #4290e0;
+}
+body.color-blue .table .cell-marker {
+  background: #4290e0;
+  border-color: #4290e0;
+}
+body.color-blue .pagination > li > a:hover,
+body.color-blue .pagination > li > span:hover {
+  background-color: #4290e0;
+  border-color: #4290e0;
+}
+body.color-blue .pagination > .active > a,
+body.color-blue .pagination > .active > span,
+body.color-blue .pagination > .active > a:hover,
+body.color-blue .pagination > .active > span:hover {
+  background-color: #4290e0;
+  border-color: #4290e0;
+}
+body.color-blue .testimonial-card:after {
+  color: #4290e0;
+}
+body.color-blue .column-filters {
+  margin-bottom: 35px;
+}
+body.color-blue .column-filters-inside {
+  border: 3px solid #f5f5f5;
+}
+body.color-blue .column-filters .side-block {
+  border-color: #ebebeb;
+  padding: 20px;
+  margin-bottom: 0;
+}
+body.color-blue .column-filters .side-block h3 {
+  margin-bottom: 25px;
+}
+body.color-blue .column-filters .category-list {
+  margin-top: 20px;
+}
+body.color-blue .column-center {
+  margin-bottom: 35px;
+}
+body.color-blue .noUi-horizontal .noUi-handle {
+  background: #4290e0;
+}
+body.color-blue .noUi-connect {
+  background: #4290e0;
+}
+body.color-blue .simple-pagination a.active {
+  color: #4290e0;
+}
+body.color-blue .nav-tabs > li.active > a,
+body.color-blue .nav-tabs > li > a:hover {
+  color: #4290e0 !important;
+}
+body.color-blue .nav-tabs > li > a::after {
+  background: #4290e0;
+}
+body.color-blue .tab-nav > li > a::after {
+  background: #4290e0 none repeat scroll 0% 0%;
+}
+body.color-blue .rating i,
+body.color-blue blockquote::before {
+  color: #4290e0;
+}
+body.color-blue .navbar-nav > li.current-menu-item a, 
+body.color-blue .navbar-nav > li:hover a, 
+body.color-blue .navbar-nav > li > a:after {
+    background-color: #4290e0;
+    color: #000000;
+}
+body.color-blue .btn:hover, 
+body.color-blue .btn.active, 
+body.color-blue .btn:active, 
+body.color-blue .btn.focus, 
+body.color-blue .btn:focus {
+    background-color: #4290e0!important;
+}
+/*body.color-blue .btn::before, 
+body.color-blue .btn::after {
+    background-color: #4290e0!important;
+}*/
+body.color-blue .services-block .image, 
+body.color-blue .services-angle-text .number, 
+body.color-blue .text-icon .icon-wrapper > span, 
+body.color-blue .nav-pills > li.active > a, 
+body.color-blue .nav-pills > li.active > a:focus, 
+body.color-blue .nav-pills > li.active > a:hover, 
+body.color-blue .vc_toggle_square .vc_toggle_icon, 
+body.color-blue .vc_toggle_square.panel-heading1.vc_toggle_icon, 
+body.color-blue .testimonials-item, td#today, 
+body.color-blue .page-numbers.current, 
+body.color-blue .service-icon .icon-wrapper span, 
+body.color-blue .services-block-alt .image i, 
+body.color-blue .image-scale-color:after, 
+body.color-blue .text-icon-sm .icon-wrapper > span, 
+body.color-blue .woocommerce .search-container button.button:hover, 
+body.color-blue .calendar_wrap td#today {
+    background-color: #4290e0!important;
+}
+body.color-blue .icon-star:before{
+  color: #4290e0;
+}
+body.color-blue .btn-invert, 
+body.color-blue .btn-lg.btn-invert.view-more-testimonial{
+  background-color: #4290e0 !important;
+}
+body.color-blue .tagcloud a:hover{
+  background-color: #4290e0;
+}
+body.color-blue .reply a {
+    color: #4290e0!important;
+}
+body.color-blue .textarea-custom:hover, 
+body.color-blue .textarea-custom:focus, 
+body.color-blue .input-custom:hover, 
+body.color-blue .input-custom.focus, 
+body.color-blue .wpcf7-form-control.wpcf7-textarea:focus {
+    border-color: #4290e0 !important;
+}
+body.color-blue .vc_toggle, 
+body.color-blue .divider-line {
+    border-top: 1px solid #4290e0;
+}
+body.color-blue .car-faq-text .vc_toggle_title:hover h4 {
+    color: #4290e0;
+}
+body.color-blue.woocommerce .star-rating span::before {
+    color: #4290e0;
+}
+body.color-blue.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #4290e0;
+}
+body.color-blue.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #4290e0;
+}
+body.color-blue.woocommerce span.onsale, 
+body.color-blue header .header-cart .badge{
+      background: #4290e0!important;
+}
+body.color-blue.woocommerce-pagination .page-numbers .page-numbers.current, 
+body.color-blue.woocommerce nav.woocommerce-pagination ul li a:focus, 
+body.color-blue.woocommerce nav.woocommerce-pagination ul li a:hover, 
+body.color-blue.woocommerce nav.woocommerce-pagination ul li span.current {
+    background: #4290e0!important;
+    border: 1px solid #4290e0 !important;
+}
+body.color-blue.woocommerce nav.woocommerce-pagination ul li span.current,
+body.color-blue.woocommerce-pagination .page-numbers .page-numbers.current{
+  background: #4290e0!important;
+  border:1px solid #4290e0 !important;
+}
+body.color-blue.woocommerce .filters-row .page-numbers .current {
+    background-color: transparent !important;
+    color: #4290e0;
+}
+body.color-blue.woocommerce-page .btn, 
+body.color-blue.woocommerce-page .btn.btn-lg {
+    background-color: #4290e0 !important;
+}
+body.color-blue.woocommerce-page .tabs.wc-tabs li.active a {
+    color: #4290e0 !important;
+}
+body.color-blue.woocommerce-page .wc-tabs > li > a::after {
+    background: #4290e0 none repeat scroll 0 0;
+}
+body.color-blue.woocommerce p.stars a {
+    color: #4290e0 !important;
+}
+body.color-blue header .header-cart:hover a.icon, 
+body.color-blue header .header-cart.opened a.icon {
+    color: #4290e0!important;
+}
+body.color-blue .blog-post a.more-link:before,
+body.color-blue .blog-post a.more-link:after,
+body.color-blue .modal-body .btn::before,
+body.color-blue .modal-body .btn::after,
+body.color-blue .header-cart .btn::before,
+body.color-blue .header-cart .btn::after,
+body.color-blue .slider-under-bttn .btn::before, 
+body.color-blue .slider-under-bttn .btn::after{
+  background-color: #4290e0 !important;
+}
